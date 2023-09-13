@@ -1,0 +1,32 @@
+    // parceInt() ->Converte pra numero inteiro
+    // parceFloat() ->converte pra numero real
+    // Number() -> converte o tipo de dado para numero(real ou inteiro)
+    // String() -> converte o tipo do dado para string
+
+    //  ctrl + ;(comentar)
+    //  shift+alt+f(identar)
+    //  .close() ->sair do terminal travado
+  
+    //  === verifica se o conteudo é igual e se o tipo de dado é igual
+    //  !== verifica a diferenca entre conteudos e a igualdade de tipo de dados
+    //  ==! verifica a igualdade entre conteudo e diferença do tipo de dados 
+  
+    //  toFixed() -->serve pra definir a quantidade de casas mostradas depois da virgula(só serveem numero)
+    //  replace() --> serve pra trocar algum um caracter por outro(só serve em string)
+    //  toUpperCase()--> tipo o ignoreCase do java
+
+    // resultado =! undefined-->resultado diferente de indefinido(se não tiver valor)
+
+        let status = false//inicio
+        console.log(gerarTabuada('3', '0', '8'))//fim
+    
+    //implementar sempre esse codigo
+
+    var readline = require('readline')
+    var entradaDeDados = readline.createInterface({
+        input: process.stdin,
+        output: process.stdout,
+    })
+    
+    //e esse
+
