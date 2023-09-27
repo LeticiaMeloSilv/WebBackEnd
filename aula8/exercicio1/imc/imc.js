@@ -1,3 +1,10 @@
+/*********************************************************************
+ * Objetivo: Gerar Imc
+ * Data: 13/09/2023
+ * Nome: Letícia
+ * Versão: 1.0
+ *********************************************************************/
+
 const gerarIMC = function (pesoKg, alturaM) {
     let peso = pesoKg
     let altura = alturaM

@@ -1,3 +1,10 @@
+/*********************************************************************
+ * Objetivo:Gerar média escolar, com dados do aluno e professor
+ * Data: 13/09/2023
+ * Nome: Letícia
+ * Versão: 1.0
+ *********************************************************************/
+
 const { Console } = require("console")
 
 const gerarMedia = function (NomeAluno, NomeProfessor, SexoAluno, SexoProfessor, NomeCurso, NomeDisiplina, Valor1, Valor2, Valor3, Valor4, Valor5) {

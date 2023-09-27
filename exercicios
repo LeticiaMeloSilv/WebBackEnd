@@ -6,11 +6,10 @@ Prof. Marcel
 Obs: Todos os exercícios devem ser criados utilizando o conceito de função 
 e modularização de processamentos. 
 
-Exercício 01 - Um consultório de Nutrição solicitou a você que criasse um sistema 
-que faça o cálculo do IMC de uma pessoa
-Requisitos do sistema 
+    Exercício 01 - Um consultório de Nutrição solicitou a você que criasse um
+    sistema que faça o cálculo do IMC de uma pessoa 
 
-Exercício 02 - Criar um sistema que gerencie as médias escolares de uma 
+    Exercício 02 - Criar um sistema que gerencie as médias escolares de uma 
 universidade, conforme requisitos abaixo: 
 O sistema deve solicitar a entrada dos seguintes dados: 
 ● Nome do aluno; 
@@ -46,7 +45,8 @@ Professor: xxxxxxxx
 Notas do aluno: Nota1, Nota2, Nota3, Nota4, Nota do Exame 
 Média Final: xxxxxx 
 Média final do Exame: xxxx 
-Exercício 03 - Criar um sistema para gerenciar o cálculo de uma tabuada, 
+
+    Exercício 03 - Criar um sistema para gerenciar o cálculo de uma tabuada, 
 conforme requisitos abaixo: 
 O sistema deverá solicitar as seguintes entradas: 
 ● A tabuada inicial e tabuada final a ser calculada; 
@@ -56,10 +56,11 @@ Requisitos do Sistema
 valores; 
 ● Nenhuma entrada de dados deverá ficar sem preenchimento; 
 ● O valor até onde será calculada a tabuada deverá ser entre 1 e 50; 
-A saída do sistema deverá obedecer a seguinte estrutura: 
+A saída do sistema deverá obedecer a seguinte estrutura:
+
 Supondo que o usuário coloque: 
-tabuada inicial com 2 e tabuada final com 3 
-contador inicial com 0 e contador final com 2 
+ tabuada inicial com 2 e tabuada final com 3 
+ contador inicial com 0 e contador final com 2 
 Tabuada do [2] 
 2 x 0 = 0 
 2 x 1 = 2 
@@ -69,7 +70,7 @@ Tabuada do [3]
 3 x 1 = 3 
 3 x 2 = 6 
 
-Exercício 04 - Calcular o Fatorial de um número fornecido pelo usuário, exemplo: 
+    Exercício 04 - Calcular o Fatorial de um número fornecido pelo usuário, exemplo: 
 Fatorial de 3 é 3x2x1 = 6 
 Fatorial de 5 é 5x4x3x2x1 = 120 
 Requisitos do Sistema 
@@ -79,7 +80,8 @@ o Se o valor fornecido pelo usuário para calcular for 1, o sistema deve
 informar que não é possível calcular o fatorial, precisa ser um 
 número maior do que 1 
 ● Validação de entrada vazia e tratamento de caracteres inválidos. 
-Exercício 05 - Criar um sistema que gerencie números pares e ímpares
+
+    Exercício 05 - Criar um sistema que gerencie números pares e ímpares
 conforme os requisitos abaixo: 
 O sistema deverá solicitar as seguintes entradas: 
 ● Número Inicial; 
