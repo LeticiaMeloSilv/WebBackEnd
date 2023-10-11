@@ -28,9 +28,12 @@
         output: process.stdout,
     })
     
-    //e esse
+    //e esse no app.js(se o fizer)
 
     
 //[ ]->significa uma estrutura de ARRAY
 //{ }-> significa uma estrutura JSON
+
+//xml-formato de dados mais antigo
+//JSON-formato atual de dados no formato {atributo:valor,atributo:valor...}
 
