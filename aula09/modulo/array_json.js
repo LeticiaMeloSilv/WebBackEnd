@@ -88,7 +88,6 @@ const filtrarProduto = function (nomeProduto) {
             // status=true
             cont++
     })
-
     return cont
 }
 // console.log(filtrarProduto('mouse'))
@@ -150,7 +149,6 @@ const cadastroProdutos = function () {
         { id: 3, nome_cor: 'verde' },
         { id: 4, nome_cor: 'preto' }
     ]
-
     let marcas = [
         { id: 1, nome_marca: 'dell', telefone: '968t7980210', email: 'dell@gmail.com' },
         { id: 2, nome_marca: 'intel', telefone: '25620309553', email: 'intel@outlook' },
@@ -206,16 +204,9 @@ const cadastroProdutos = function () {
     //adicionando o array c tds os produts em um atributo do tipo json, pq o computador nn aceita array para execultar
     JSONProdutos.produtos = arrayProdutos
     JSONProdutos.count = arrayProdutos.length
-    return JSONProdutos
+    console.log(JSONProdutos) 
 }
-// cadastroProdutos();
+cadastroProdutos();
 
-const imprimirProdutos=function(cadastroProdutos){
-    let informacoes=cadastroProdutos
-    console.log(typeof(informacoes))
-    // informacoes.forEach(function (dados)){
-
-    // }
-    
-}
-imprimirProdutos();
+console.log('----------------------------')
+console.log(filtrarProduto('mouse'))
