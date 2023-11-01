@@ -124,10 +124,7 @@ const getCidades = function (sigla) {
 }
 
 
-getListaDeEstados()
-getDadosEstado('RJ')
-getCapitalEstado('SP')
-getEstadosRegiao('Sul')
-getCapitalPais()
-getCidades('AC')
+module.exports = {
+    getListaDeEstados
+}
 
