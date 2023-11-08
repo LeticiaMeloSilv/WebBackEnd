@@ -20,6 +20,7 @@
         let status = false//inicio
         console.log(gerarTabuada('3', '0', '8'))//fim
     
+const { ADDRCONFIG } = require('dns')
     //implementar sempre esse codigo
 
     var readline = require('readline')
@@ -37,3 +38,20 @@
 //xml-formato de dados mais antigo
 //JSON-formato atual de dados no formato {atributo:valor,atributo:valor...}
 
+
+
+//requisição
+//  verbos/metodos
+//      GET(solicita dados)=select
+//      POST(envia novos dados)=insert
+//      DELETE(exclui dados)=delete
+//      PUT(altera os dados)=update
+
+//Para criar uma API podemos utilizar o EXPRESS
+//npm -version
+//npm install express --save(na pasta raiz, fora do modulo)
+//  biblioteca que gerencia as requisiçoes da API
+//npm install body-parser --save
+//  Biblioteca que manipula dados do corpo da requisição(post e put)
+//npm install cors --save
+//  biblioteca responsavel pelas permissoes de acesso das requisiçoes
