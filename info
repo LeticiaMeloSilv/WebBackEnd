@@ -55,3 +55,7 @@ const { ADDRCONFIG } = require('dns')
 //  Biblioteca que manipula dados do corpo da requisição(post e put)
 //npm install cors --save
 //  biblioteca responsavel pelas permissoes de acesso das requisiçoes
+
+//http://localhost:8080/estados/sigla
+
+//https://restfulapi.net/http-status-codes/
