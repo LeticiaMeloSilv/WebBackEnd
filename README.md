@@ -7,4 +7,4 @@
   <br />
 Linguagem: JS
   <br />
-Software: Node</p>
+Software: Node  |  Postman</p>
